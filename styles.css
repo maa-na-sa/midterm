@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+}
+div.container{/*I want to make an image border next time*/
+    border-left: 15px solid goldenrod;
+    border-right: 15px solid goldenrod;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+h3{
+    color: darkslategrey;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+/*.logo img{
+    width: 1%;
+    height: auto;
+    display: flex;
+    justify-content: baseline;
+    position: absolute;
+}*/
+header{
+    width: 100%;
+}
+img.hero{/*working on filling heading image to fit to border*/
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+div.title{
+    padding: 0.5%;
+}
+nav{
+    background-color: rgb(218, 234, 248);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 2%;
+    text-align: center;
+}
+li{
+    width: 90%;
+    display: inline-block;
+    border: 2px solid rgb(80, 132, 84);
+    margin: 1%;
+    justify-content: space-evenly;
+    line-height: 2em;
+}
+a{
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategray;
+}
+main img,main h3,main p{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    justify-items: center;
+    text-align: center;
+}
+aside{
+    margin-top: 1%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+div.top,div.middle,div.bottom{
+    overflow: scroll;/*fix this*/
+    padding: 2%;
+    justify-content: space-evenly;/*spacing is off/uneven*/
+}
+aside p{
+    /*need to fix paragraph width to element*/
+    color: #533e5d;
+    font-size: larger;
+}
+footer{
+    background-color: rgb(218, 234, 248);
+}
